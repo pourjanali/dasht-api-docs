@@ -919,6 +919,10 @@
                                                         "nullable": true,
                                                         "readOnly": true
                                                     },
+                                                    "IsApiEnabled": {
+                                                        "type": "boolean",
+                                                        "readOnly": true
+                                                    },
                                                     "Version": {
                                                         "type": "integer",
                                                         "format": "int32",
@@ -1070,6 +1074,7 @@
                                     "BirthDate",
                                     "NationalID",
                                     "EconomicCode",
+                                    "IsApiEnabled",
                                     "Addresses"
                                 ],
                                 "properties": {
@@ -1111,6 +1116,10 @@
                                     "EconomicCode": {
                                         "type": "string",
                                         "nullable": true,
+                                        "writeOnly": true
+                                    },
+                                    "IsApiEnabled": {
+                                        "type": "boolean",
                                         "writeOnly": true
                                     },
                                     "Addresses": {
@@ -1255,6 +1264,10 @@
                                         "EconomicCode": {
                                             "type": "string",
                                             "nullable": true,
+                                            "readOnly": true
+                                        },
+                                        "IsApiEnabled": {
+                                            "type": "boolean",
                                             "readOnly": true
                                         },
                                         "Version": {
@@ -1439,6 +1452,10 @@
                                         "EconomicCode": {
                                             "type": "string",
                                             "nullable": true,
+                                            "readOnly": true
+                                        },
+                                        "IsApiEnabled": {
+                                            "type": "boolean",
                                             "readOnly": true
                                         },
                                         "Version": {
@@ -1723,6 +1740,10 @@
                                         "EconomicCode": {
                                             "type": "string",
                                             "nullable": true,
+                                            "readOnly": true
+                                        },
+                                        "IsApiEnabled": {
+                                            "type": "boolean",
                                             "readOnly": true
                                         },
                                         "Version": {
@@ -10131,6 +10152,10 @@
                                                         "type": "string",
                                                         "nullable": true,
                                                         "readOnly": true
+                                                    },
+                                                    "IsApiEnabled": {
+                                                        "type": "boolean",
+                                                        "readOnly": true
                                                     }
                                                 }
                                             }
@@ -10250,6 +10275,10 @@
                                         "LastName": {
                                             "type": "string",
                                             "nullable": true,
+                                            "readOnly": true
+                                        },
+                                        "IsApiEnabled": {
+                                            "type": "boolean",
                                             "readOnly": true
                                         }
                                     }
